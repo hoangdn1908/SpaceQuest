@@ -159,7 +159,7 @@ public class PlayerController : MonoBehaviour
     {
         if (bulletPrefabs != null && firepos != null) // Check if bullet prefab and fire position are assigned
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 GameObject bullet = Instantiate(bulletPrefabs, firepos.position, Quaternion.identity); // Instantiate bullet at fire position
             }
