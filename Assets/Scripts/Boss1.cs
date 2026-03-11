@@ -84,6 +84,7 @@ public class Boss1 : MonoBehaviour
         currentHealth -= damageAmount; // Reduce the boss's health by the damage amount
         if (currentHealth <= 0f) // Check if the boss's health is zero or below
         {
+            isaDead = true; // Set the boss as dead
             Destroy(gameObject); // Destroy the boss if its health is depleted
             
         }
